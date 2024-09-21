@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Guessing_Game</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Sem Título-1.ico</ApplicationIcon>
+    <Company>Mário Gomes</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Sem Título-1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Sem Título-1.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Sem Título-1.png" />
+  </ItemGroup>
+
+</Project>
